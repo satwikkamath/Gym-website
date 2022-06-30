@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&family=Montserrat:ital@1&family=Poppins:ital,wght@1,100&family=Spectral:ital,wght@1,600&display=swap"
+        rel="stylesheet">
+    <title>Satwik Fitness</title>
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+            background: url('img/pexels-victor-freitas-841130.jpg');
+            background-repeat: no-repeat;
+            background-size: 1600px 782px;
+            font-family: 'Josefin Sans', sans-serif;
+            font-family: 'Montserrat', sans-serif;
+            font-family: 'Poppins', sans-serif;
+            font-family: 'Spectral', serif;
+            color: white;
+        }
+
+        .left {
+            
+            left: 34px;
+            top: 20px;
+            display: inline-block;
+            position: absolute;
+
+
+        }
+
+        .mid {
+            border: 2px solid white;
+            background-color: black;
+            width: 33%;
+            margin: 12px auto;
+            top: 20px;
+        }
+
+        .right {
+            
+            right: 34px;
+            top: 20px;
+            display: inline-block;
+            position: absolute;
+        }
+
+        .navbar {
+            display: inline-block;
+            border-radius: 15px;
+        }
+
+        .navbar li {
+
+            display: inline-block;
+            padding: 6px 23px;
+        }
+
+        .navbar li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .navbar li a:hover,
+        .navbar li a.active {
+            color: gray;
+            text-decoration: underline;
+        }
+
+        .left img {
+            width: 46px;
+            display: inline-block;
+            height: 46px;
+            margin: 0px 23px 0px 23px;
+        }
+
+        .left div {
+            text-align: center;
+        }
+
+        .btn {
+            margin: 10px;
+            padding: 2px;
+            color: rgb(14, 13, 13);
+            border: 2px solid gray;
+            border-radius: 5px;
+            cursor: pointer;
+            font-family: 'Josefin Sans', sans-serif;
+            font-family: 'Montserrat', sans-serif;
+            font-family: 'Poppins', sans-serif;
+            font-family: 'Spectral', serif;
+        }
+
+        .btn:hover {
+            background-color: gray;
+        }
+
+        .container {
+            display: block;
+            border: 2px solid rgb(251, 251, 251);
+            margin: 125px 15px 12px 9px;
+            padding: 19px 115px 33px 120px;
+            width: 30%;
+            background-color: black;
+            text-align: center;
+            border-radius: 15px;
+
+        }
+        .formgroup input{
+            text-align: center ;
+            display: block;
+            width: 300px;
+            padding: 6px;
+            border: 2px solid black;
+            margin: 3px auto;
+            border-radius: 5px;
+        }
+        .formgroup{
+            display: block;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="img/letter-s-logo-vector_23987-138.webp" alt="">
+            <div>Satwik Fitness</div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="" class="active">Home</a></li>
+                <li><a href="" class="">About Us</a></li>
+                <li><a href="" class="">Fitness Centre</a></li>
+                <li><a href="" class="">Contact us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">Call us now</button><button class="btn">Email us now</button>
+        </div>
+    </header>
+    <div class="container">
+        <h2>Join the best gym in Bhadravathi now!!!</h2>
+        <form action="noaction.php">
+            <div class="formgroup"> 
+                <input type="text" name="" placeholder="Enter your name">
+            </div>
+            <div class="formgroup"> 
+                <input type="text" name="" placeholder="Enter your age">
+            </div>
+            <div class="formgroup"> 
+                <input type="text" name="" placeholder="Enter your gender">
+            </div>
+            <div class="formgroup"> 
+                <input type="text" name="" placeholder="Enter your locality">
+            </div>
+            <button class="btn">Submit</button>
+            
+        </form>
+    </div>
+</body>
+
+</html>
